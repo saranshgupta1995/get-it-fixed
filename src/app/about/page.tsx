@@ -23,7 +23,7 @@ export default function About() {
                 About Get It Fixed
             </h1>
             <p style={{ fontSize: "1.08rem", color: "#2d3a4a" }}>
-                Hi, I’m [Your Name], the founder of Get It Fixed. With [X years] of IT
+                Hi, I’m Shreyaansh Jain, the founder of Get It Fixed. With multiple years of IT
                 support experience, I’ve helped individuals and small businesses solve
                 tech problems quickly and stress-free. My goal is simple: to make
                 technology work for you, not against you.
