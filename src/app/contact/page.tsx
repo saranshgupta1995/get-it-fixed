@@ -25,10 +25,10 @@ export default function Contact() {
             <div style={{ marginBottom: 16 }}>
                 <b>📞 Phone:</b>{" "}
                 <a
-                    href="tel:1234567890"
+                    href="tel:604-749-4040"
                     style={{ color: "#1a73e8", textDecoration: "none" }}
                 >
-                    123-456-7890
+                    604-749-4040
                 </a>
             </div>
             <div style={{ marginBottom: 16 }}>
@@ -37,10 +37,10 @@ export default function Contact() {
                     href="mailto:info@getitfixed.tech"
                     style={{ color: "#1a73e8", textDecoration: "none" }}
                 >
-                    info@getitfixed.tech
+                    TODO
                 </a>
             </div>
-            <form
+            {/* <form
                 style={{
                     maxWidth: 400,
                     margin: "2rem auto 0",
@@ -80,7 +80,7 @@ export default function Contact() {
                 >
                     Send Message
                 </button>
-            </form>
+            </form> */}
         </section>
     );
 }

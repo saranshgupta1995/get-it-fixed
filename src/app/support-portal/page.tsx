@@ -28,7 +28,7 @@ export default function SupportPortal() {
                 here.
             </p>
             <a
-                href="tel:1234567890"
+                href="tel:604-749-4040"
                 style={{
                     display: "inline-block",
                     background: "#1a73e8",

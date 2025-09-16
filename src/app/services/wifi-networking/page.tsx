@@ -46,7 +46,7 @@ export default function WifiNetworking() {
             </ul>
             <div style={{ marginTop: 24 }}>
                 <a
-                    href="tel:1234567890"
+                    href="tel:604-749-4040"
                     style={{
                         background: "#1a73e8",
                         color: "#fff",

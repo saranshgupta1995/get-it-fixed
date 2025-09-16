@@ -32,7 +32,6 @@ export default function Page() {
           We fix computers, networks, and devices so you can get back to what matters.
         </h2>
         <div style={{ display: 'flex', justifyContent: 'center', gap: 16, marginBottom: 32 }}>
-          <Link href="/contact" style={{ background: '#1a73e8', color: '#fff', borderRadius: 8, padding: '0.9rem 2rem', fontWeight: 600, textDecoration: 'none', fontSize: '1.1rem', boxShadow: '0 1px 4px #b3d1f7' }}>Get Support Now</Link>
           <Link href="/contact" style={{ background: '#e3f0ff', color: '#1a73e8', borderRadius: 8, padding: '0.9rem 2rem', fontWeight: 600, textDecoration: 'none', fontSize: '1.1rem', boxShadow: '0 1px 4px #e3eaf2' }}>Book a Free Consultation</Link>
         </div>
       </section>
@@ -64,7 +63,7 @@ export default function Page() {
         <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 32 }}>
           <div style={{ flex: 1, minWidth: 220 }}>
             <p style={{ fontSize: '1.08rem', color: '#2d3a4a' }}>
-              Hi, I’m [Your Name], the founder of Get It Fixed. With [X years] of IT support experience, I’ve helped individuals and small businesses solve tech problems quickly and stress-free. My goal is simple: to make technology work for you, not against you.
+              Hi, I’m Shreyaansh Jain, the founder of Get It Fixed. With multiple years of IT support experience, I’ve helped individuals and small businesses solve tech problems quickly and stress-free. My goal is simple: to make technology work for you, not against you.
             </p>
           </div>
           <div style={{ flex: 1, minWidth: 180, textAlign: 'center' }}>

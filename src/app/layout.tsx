@@ -49,7 +49,7 @@ export default function RootLayout({
               <Link href="/about" style={{ color: '#2d3a4a', textDecoration: 'none', fontWeight: 500 }}>About</Link>
               <Link href="/services/computer-laptop-troubleshooting" style={{ color: '#2d3a4a', textDecoration: 'none', fontWeight: 500 }}>Services</Link>
               <Link href="/contact" style={{ color: '#2d3a4a', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
-              <Link href="/support-portal" style={{ color: '#2d3a4a', textDecoration: 'none', fontWeight: 500 }}>Support Portal</Link>
+
             </div>
           </nav>
         </header>
