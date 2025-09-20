@@ -24,15 +24,47 @@ function ServiceBox({ icon, title, desc, link }: ServiceBoxProps) {
 export default function Page() {
   return (
     <>
-      <section style={{ background: '#f6fafd', padding: '3rem 0 2rem 0', textAlign: 'center' }}>
-        <h1 style={{ fontSize: '2.5rem', fontWeight: 700, color: '#1a73e8', marginBottom: 8 }}>
+      <section style={{
+        background: 'linear-gradient(120deg, #e3f0ff 0%, #f6fafd 100%)',
+        padding: '4.5rem 0 3.5rem 0',
+        textAlign: 'center',
+        position: 'relative',
+        overflow: 'hidden',
+        borderBottom: '1px solid #e3eaf2'
+      }}>
+        <h1 style={{
+          fontSize: '3.2rem',
+          fontWeight: 600,
+          color: '#1a73e8',
+          marginBottom: 14,
+          textShadow: '0 2px 8px #e3eaf2'
+        }}>
           Fast & Reliable Tech Support – Anytime, Anywhere
         </h1>
-        <h2 style={{ fontWeight: 400, fontSize: '1.25rem', color: '#2d3a4a', marginBottom: 24 }}>
+        <h2 style={{
+          fontWeight: 400,
+          fontSize: '1.45rem',
+          color: '#2d3a4a',
+          marginBottom: 32,
+          maxWidth: 600,
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          lineHeight: 1.4
+        }}>
           We fix computers, networks, and devices so you can get back to what matters.
         </h2>
-        <div style={{ display: 'flex', justifyContent: 'center', gap: 16, marginBottom: 32 }}>
-          <Link href="/contact" style={{ background: '#e3f0ff', color: '#1a73e8', borderRadius: 8, padding: '0.9rem 2rem', fontWeight: 600, textDecoration: 'none', fontSize: '1.1rem', boxShadow: '0 1px 4px #e3eaf2' }}>Book a Free Consultation</Link>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: 20, marginBottom: 0 }}>
+          <Link href="/contact" style={{
+            background: '#1a73e8',
+            color: '#fff',
+            borderRadius: 8,
+            padding: '1.1rem 2.7rem',
+            fontWeight: 700,
+            textDecoration: 'none',
+            fontSize: '1.18rem',
+            boxShadow: '0 2px 8px #b3d1fa',
+            transition: 'background 0.2s'
+          }}>Contact Us</Link>
         </div>
       </section>
 
