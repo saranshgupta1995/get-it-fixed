@@ -1,6 +1,8 @@
 
 import React from 'react';
 import Link from 'next/link';
+import HeroHome from './HeroHome';
+import EmpowerSection from './EmpowerSection';
 
 type ServiceBoxProps = {
   icon: string;
@@ -24,49 +26,8 @@ function ServiceBox({ icon, title, desc, link }: ServiceBoxProps) {
 export default function Page() {
   return (
     <>
-      <section style={{
-        background: 'linear-gradient(120deg, #e3f0ff 0%, #f6fafd 100%)',
-        padding: '4.5rem 0 3.5rem 0',
-        textAlign: 'center',
-        position: 'relative',
-        overflow: 'hidden',
-        borderBottom: '1px solid #e3eaf2'
-      }}>
-        <h1 style={{
-          fontSize: '3.2rem',
-          fontWeight: 600,
-          color: '#1a73e8',
-          marginBottom: 14,
-          textShadow: '0 2px 8px #e3eaf2'
-        }}>
-          Fast & Reliable Tech Support – Anytime, Anywhere
-        </h1>
-        <h2 style={{
-          fontWeight: 400,
-          fontSize: '1.45rem',
-          color: '#2d3a4a',
-          marginBottom: 32,
-          maxWidth: 600,
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          lineHeight: 1.4
-        }}>
-          We fix computers, networks, and devices so you can get back to what matters.
-        </h2>
-        <div style={{ display: 'flex', justifyContent: 'center', gap: 20, marginBottom: 0 }}>
-          <Link href="/contact" style={{
-            background: '#1a73e8',
-            color: '#fff',
-            borderRadius: 8,
-            padding: '1.1rem 2.7rem',
-            fontWeight: 700,
-            textDecoration: 'none',
-            fontSize: '1.18rem',
-            boxShadow: '0 2px 8px #b3d1fa',
-            transition: 'background 0.2s'
-          }}>Contact Us</Link>
-        </div>
-      </section>
+      <HeroHome />
+      <EmpowerSection />
 
       <section style={{ maxWidth: 1100, margin: '0 auto', padding: '2rem 1rem' }}>
         <h3 style={{ color: '#1a73e8', fontWeight: 700, fontSize: '2rem', textAlign: 'center', marginBottom: 32 }}>Our Services</h3>
@@ -103,6 +64,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
     </>
   );
 }

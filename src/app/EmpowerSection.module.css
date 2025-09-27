@@ -1,0 +1,120 @@
+.curveTop {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.curve {
+  width: 100%;
+  background: #f7c04a;
+  display: block;
+  height: 100px;
+  clip-path: path(
+    "M0 41.5C0 41.5 341.5 0 1024 41.5C1706.5 83 2048 41.5 2048 41.5V283H0V41.5Z"
+  );
+  position: relative;
+}
+
+.contentWrapper {
+  background: #f7c04a;
+  padding: 2rem 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 2rem 10rem;
+}
+
+.heading {
+  flex: 0 0 350px;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.description {
+  /* flex: 0 0 350px; */
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 100;
+}
+
+.empowerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffbf23;
+  padding: 6rem 2rem 5rem 2rem;
+  width: 100%;
+}
+
+.leftCol {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+.headline {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #111;
+  font-family: "Space Grotesk", Helvetica, Arial, sans-serif;
+}
+
+.rightCol {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .contentWrapper {
+    padding: 2rem 4rem;
+    gap: 4rem;
+  }
+}
+@media (max-width: 900px) {
+  .contentWrapper {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .heading {
+    font-size: 2rem;
+    text-align: left;
+    flex: unset;
+    margin-bottom: 1rem;
+  }
+  .description {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .curve {
+    height: 80px;
+  }
+  .contentWrapper {
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+  .heading {
+    font-size: 1.3rem;
+  }
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+  }
+}

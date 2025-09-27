@@ -1,0 +1,79 @@
+.footer {
+  background: #f7c04a;
+  color: #111;
+  font-family: 'Space Grotesk', Helvetica, Arial, sans-serif;
+  padding: 2.5rem 4vw 2rem 4vw;
+  width: 100%;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.brand {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+
+.column {
+  min-width: 220px;
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.column a {
+  color: #111;
+  text-decoration: underline;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+@media (max-width: 900px) {
+  .bottomRow {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .column {
+    min-width: unset;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 2rem 2vw 1.5rem 2vw;
+  }
+  .brand {
+    font-size: 1.3rem;
+  }
+  .heading {
+    font-size: 1.1rem;
+  }
+}
