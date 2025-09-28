@@ -21,13 +21,13 @@ export default function Header() {
                 </Link>
                 {/* Hamburger Icon for mobile */}
                 <button
-                  className={styles.hamburger}
-                  aria-label="Open menu"
-                  onClick={() => setMenuOpen(!menuOpen)}
+                    className={styles.hamburger}
+                    aria-label="Open menu"
+                    onClick={() => setMenuOpen(!menuOpen)}
                 >
-                  <span className={styles.hamburgerBar}></span>
-                  <span className={styles.hamburgerBar}></span>
-                  <span className={styles.hamburgerBar}></span>
+                    <span className={styles.hamburgerBar}></span>
+                    <span className={styles.hamburgerBar}></span>
+                    <span className={styles.hamburgerBar}></span>
                 </button>
                 {/* Regular Navigation */}
                 <div className={styles.links}>
@@ -48,31 +48,31 @@ export default function Header() {
                 </div>
                 {/* Mobile Navigation */}
                 <aside
-                  className={menuOpen ? `${styles.mobileMenu} ${styles.mobileMenuOpen}` : styles.mobileMenu}
-                  aria-hidden={!menuOpen}
+                    className={menuOpen ? `${styles.mobileMenu} ${styles.mobileMenuOpen}` : styles.mobileMenu}
+                    aria-hidden={!menuOpen}
                 >
-                  <button
-                    className={styles.closeBtn}
-                    aria-label="Close menu"
-                    onClick={() => setMenuOpen(false)}
-                  >
-                    <span className={styles.closeIcon}>&#10005;</span>
-                  </button>
-                  {navLinks.map(link => (
-                      <Link
-                          key={link.href}
-                          href={link.href}
-                          className={
-                              pathname === link.href
-                                  ? `${styles.link} ${styles.linkHome} `
-                                  : styles.link
-                          }
-                          onClick={() => setMenuOpen(false)}
-                      >
-                          {link.label}
-                      </Link>
-                  ))}
-                  <Link href="/contact" className={styles.supportBtn} onClick={() => setMenuOpen(false)}>Get Support</Link>
+                    <button
+                        className={styles.closeBtn}
+                        aria-label="Close menu"
+                        onClick={() => setMenuOpen(false)}
+                    >
+                        <span className={styles.closeIcon}>&#10005;</span>
+                    </button>
+                    {navLinks.map(link => (
+                        <Link
+                            key={link.href}
+                            href={link.href}
+                            className={
+                                pathname === link.href
+                                    ? `${styles.link} ${styles.linkHome} `
+                                    : styles.link
+                            }
+                            onClick={() => setMenuOpen(false)}
+                        >
+                            {link.label}
+                        </Link>
+                    ))}
+                    <Link href="/contact" className={styles.supportBtn} onClick={() => setMenuOpen(false)}>Get Support</Link>
                 </aside>
             </nav>
         </header>

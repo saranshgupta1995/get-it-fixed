@@ -34,10 +34,10 @@ export default function Contact() {
             <div style={{ marginBottom: 16 }}>
                 <b>📧 Email:</b>{" "}
                 <a
-                    href="mailto:info@getitfixed.tech"
+                    href="mailto:getitfixed.tech@hotmail.com"
                     style={{ color: "#1a73e8", textDecoration: "none" }}
                 >
-                    TODO
+                    getitfixed.tech@hotmail.com
                 </a>
             </div>
             {/* <form
