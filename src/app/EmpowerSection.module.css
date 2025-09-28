@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: center;
   gap: 6rem;
-  padding: 2rem 10rem;
+  padding: 4rem 10rem;
 }
 
 .heading {
@@ -77,15 +77,15 @@
 
 @media (max-width: 1200px) {
   .contentWrapper {
-    padding: 2rem 4rem;
+    padding: 4rem 4rem;
     gap: 4rem;
   }
 }
 @media (max-width: 900px) {
   .contentWrapper {
     flex-direction: column;
-    gap: 2rem;
-    padding: 4rem;
+    gap: 0;
+    padding: 4rem 2rem;
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -105,10 +105,6 @@
 @media (max-width: 600px) {
   .curve {
     height: 80px;
-  }
-  .contentWrapper {
-    padding: 1rem 2rem;
-    gap: 1rem;
   }
   .heading {
     font-size: 1.3rem;
