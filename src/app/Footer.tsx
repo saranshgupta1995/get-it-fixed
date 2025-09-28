@@ -22,11 +22,6 @@ const Footer = () => {
                     <div>Customer Support:<br />Getitfixed.tech@hotmail.com</div>
                 </div>
                 <div className={styles.column}>
-                    <div className={styles.heading}>Quick Links</div>
-                    <a href="#">Terms & Conditions</a><br />
-                    <a href="#">Privacy Policy</a>
-                </div>
-                <div className={styles.column}>
                     <div className={styles.heading}>Connect with Us</div>
                     <div>Stay updated with the latest tech news and updates.</div>
                     <a href="#">LinkedIn</a><br />
