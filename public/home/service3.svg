@@ -1,0 +1,84 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with wavy pattern -->
+  <defs>
+    <pattern id="waves3" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20 Q 10 15, 20 20 T 40 20" stroke="#CCAA1E" stroke-width="1.5" fill="none" opacity="0.3"/>
+      <path d="M0 25 Q 10 20, 20 25 T 40 25" stroke="#CCAA1E" stroke-width="1.5" fill="none" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Main card background -->
+  <rect width="400" height="400" rx="20" fill="#FFBF23"/>
+  <rect width="400" height="400" rx="20" fill="url(#waves3)"/>
+
+  <!-- Card border -->
+  <rect width="400" height="400" rx="20" fill="none" stroke="#000" stroke-width="6"/>
+
+  <!-- Happy person celebrating -->
+  <g transform="translate(200, 180)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="35" fill="#FFD7EF" stroke="#000" stroke-width="4"/>
+
+    <!-- Hair -->
+    <path d="M-25 -10 Q-30 -25, -15 -32 Q0 -35, 15 -32 Q30 -25, 25 -10"
+          fill="#FE393C" stroke="#000" stroke-width="3"/>
+
+    <!-- Eyes (happy closed eyes) -->
+    <path d="M-15 -5 Q-12 -10, -9 -5" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    <path d="M9 -5 Q12 -10, 15 -5" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Big smile -->
+    <path d="M-15 8 Q0 20, 15 8" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Body -->
+    <rect x="-30" y="35" width="60" height="50" rx="8" fill="#0ACB8B" stroke="#000" stroke-width="4"/>
+
+    <!-- Arms raised up (celebrating) -->
+    <rect x="-60" y="40" width="25" height="20" rx="10" fill="#FFD7EF" stroke="#000" stroke-width="3" transform="rotate(-30 -47.5 50)"/>
+    <rect x="35" y="40" width="25" height="20" rx="10" fill="#FFD7EF" stroke="#000" stroke-width="3" transform="rotate(30 47.5 50)"/>
+
+    <!-- Hands -->
+    <circle cx="-55" cy="35" r="10" fill="#FFD7EF" stroke="#000" stroke-width="3"/>
+    <circle cx="55" cy="35" r="10" fill="#FFD7EF" stroke="#000" stroke-width="3"/>
+  </g>
+
+  <!-- Trophy/Award ribbon -->
+  <g transform="translate(200, 320)">
+    <circle cx="0" cy="0" r="35" fill="#FFD7EF" stroke="#000" stroke-width="4"/>
+    <circle cx="0" cy="0" r="25" fill="#91C1ED" stroke="#000" stroke-width="3"/>
+
+    <!-- Number 1 -->
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#000" text-anchor="middle">1</text>
+
+    <!-- Ribbon -->
+    <path d="M-15 30 L-15 60 L0 50 L15 60 L15 30" fill="#FE393C" stroke="#000" stroke-width="3"/>
+  </g>
+
+  <!-- Stars around -->
+  <g fill="#FE393C" stroke="#000" stroke-width="2">
+    <path d="M80 120 L85 135 L100 135 L88 145 L93 160 L80 150 L67 160 L72 145 L60 135 L75 135 Z"/>
+    <path d="M320 100 L325 115 L340 115 L328 125 L333 140 L320 130 L307 140 L312 125 L300 115 L315 115 Z"/>
+    <path d="M90 300 L93 310 L103 310 L95 317 L98 327 L90 320 L82 327 L85 317 L77 310 L87 310 Z"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#FFBF23" stroke="#000" stroke-width="2">
+    <circle cx="320" cy="200" r="6"/>
+    <circle cx="340" cy="220" r="4"/>
+    <circle cx="70" cy="180" r="5"/>
+    <circle cx="50" cy="200" r="4"/>
+  </g>
+
+  <!-- Heart shapes -->
+  <g fill="#FE393C" stroke="#000" stroke-width="2">
+    <path d="M330 280 Q330 270, 340 270 Q350 270, 350 280 Q350 290, 340 300 L330 290 Q330 285, 330 280 Z"/>
+    <path d="M60 250 Q60 242, 68 242 Q76 242, 76 250 Q76 258, 68 266 L60 258 Q60 254, 60 250 Z"/>
+  </g>
+
+  <!-- Decorative plants -->
+  <ellipse cx="50" cy="370" rx="25" ry="30" fill="#07875D" stroke="#000" stroke-width="3"/>
+  <ellipse cx="40" cy="360" rx="20" ry="25" fill="#0ACB8B" stroke="#000" stroke-width="3"/>
+
+  <ellipse cx="350" cy="370" rx="25" ry="30" fill="#07875D" stroke="#000" stroke-width="3"/>
+  <ellipse cx="360" cy="360" rx="20" ry="25" fill="#0ACB8B" stroke="#000" stroke-width="3"/>
+</svg>
