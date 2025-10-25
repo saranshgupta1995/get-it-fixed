@@ -36,3 +36,12 @@ export default function Page() {
     </>
   );
 }
+
+export const metadata = {
+  applicationName: 'Get it fixed',
+  keywords: ['Canada tech support', 'Get fixed', 'Tech support', 'IT support in Canada', 'Remote tech support'],
+  title: 'Get It Fixed | Canada - Fast & Reliable Tech Support',
+  authors: [{ name: 'Saransh', url: 'https://saransh.dev' }],
+  creator: 'Shreyaansh Jain',
+  publisher: 'Saransh Gupta',
+}

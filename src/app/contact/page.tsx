@@ -84,3 +84,12 @@ export default function Contact() {
         </section>
     );
 }
+
+export const metadata = {
+    applicationName: 'Get it fixed',
+    keywords: ['Canada tech support', 'Get fixed', 'contact Tech support', 'IT support in Canada', 'Remote tech support'],
+    title: 'Get It Fixed | Contact Us',
+    authors: [{ name: 'Saransh', url: 'https://saransh.dev' }],
+    creator: 'Shreyaansh Jain',
+    publisher: 'Saransh Gupta',
+}
